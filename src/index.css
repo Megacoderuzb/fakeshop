@@ -1,0 +1,11 @@
+.placeholder-card-image {
+  height: 300px;
+  object-fit: contain;
+}
+
+.product-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
